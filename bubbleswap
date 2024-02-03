@@ -1,36 +1,43 @@
-#include<iostream.>
+#include<iostream.h>
 #include<conio.h>
+
 void main()
 {
-    int a[10],i,j,k,t;
-clrscr();
-    cout<<"enter 10 elements:";
-    for(i=0;i<10;i++)
+    int a[10], i, j, k, t;
+
+    clrscr();
+
+    cout << "Enter 10 elements: ";
+    for (i = 0; i < 10; i++)
     {
-        cin>>a[i];
+        cin >> a[i];
     }
-    
-    for(i=0;i<10;i++)
+
+    cout << "Entered elements are: ";
+    for (i = 0; i < 10; i++)
     {
-        cout<<"Entered elements are:<<a[i]";
+        cout << a[i] << " ";
     }
-    for (k=1;k<10;k++)
+    cout << endl;
+
+    for (k = 1; k < 10; k++)
     {
-        for (j=0;j<(10-k);j++)
+        for (j = 0; j < (10 - k); j++)
         {
-            if (a[j]>a[j+1])
+            if (a[j] > a[j + 1])
             {
-                t=a[j];
-                a[j]=a[j+1];
-                a[j+1]=t;
+                t = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = t;
             }
         }
     }
-    cout<<"the aorted elements are : \n";
-    for (j=0;j<10;j++)
+
+    cout << "The sorted elements are: \n";
+    for (j = 0; j < 10; j++)
     {
-        cout<<a[j]<<endl;
+        cout << a[j] << endl;
     }
+
     getch();
-    
 }
