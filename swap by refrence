@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<conio.h>
+void swap(int *p1,int *p2)
+{
+int temp;
+temp=*p1;
+*p1=*p2;
+*p2=temp;
+}
+void main()
+{
+int a,b;
+cout<<"enter two numbers:";
+cin>>a>>b;
+cout<<"numbers before swaaping are:"<<endl;
+cout<<"a="<<a<<endl;
+cout<<"b="<<b<<endl;
+swap(&a,&b);
+cout<<"numbers after swapping are:"<<endl;
+cout<<"a="<<a<<endl;
+cout<<"b="<<b<<endl;
+getch();
+}
