@@ -1,17 +1,18 @@
-#include <iostream>
-using namespace std;
-int main()
+#include<iostream.>
+#include<conio.h>
+void main()
 {
     int a[10],i,j,k,t;
-    cout<<"enter 10 elements:"<<endl;
+clrscr();
+    cout<<"enter 10 elements:";
     for(i=0;i<10;i++)
     {
         cin>>a[i];
     }
-    cout<<"Entered elements are: \n";
+    
     for(i=0;i<10;i++)
     {
-        cout<<a[i]<<endl;
+        cout<<"Entered elements are:<<a[i]";
     }
     for (k=1;k<10;k++)
     {
@@ -30,6 +31,6 @@ int main()
     {
         cout<<a[j]<<endl;
     }
-    return 0;
+    getch();
     
 }
