@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+
+class ratio {
+public:
+    void print() {
+        cout << "now X is alive" << endl;
+    }
+    ratio() {
+        cout << "object is born" << endl;
+    }
+    ~ratio() {
+        cout << "object dies" << endl;
+    }
+};
+
+void main() {
+    clrscr(); 
+    ratio r1; 
+    r1.print(); 
+    getch(); 
+}
