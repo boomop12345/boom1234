@@ -1,0 +1,43 @@
+
+<html>
+<head>
+    <title>MY WEB PAGE</title>
+</head>
+<body bgcolor="PINK">
+    <h2><marquee>WELCOME TO MY WEBPAGE.</marquee></h2>
+    <br> <br>
+    <table border="2">
+        <tr>
+            <td colspan="2">CHEMISTRY</td>
+            <td colspan="2">MATHS</td>
+            <td colspan="2">PHYSICS</td>
+        </tr>
+        <tr>
+            <td>THEORY</td>
+            <td>PRACTICAL</td>
+            <td>THEORY</td>
+            <td>PRACTICAL</td>
+            <td>THEORY</td>
+            <td>PRACTICAL</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>75</td>
+            <td>50</td>
+            <td>75</td>
+            <td>50</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>75</td>
+            <td>50</td>
+            <td>75</td>
+            <td>50</td>
+            <td>75</td>
+        </tr>
+    </table>
+    <br> <br>
+    <a href="C:\Users\ns656\Desktop\NEW TECH HTML.html"><img src="C:\Users\ns656\Pictures\ryzee op.png" alt="IMAGE FILE" width="200" height="200"></a>
+</body>
+</html>
